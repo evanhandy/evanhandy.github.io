@@ -1,10 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Source+Sans+Pro|Bitter|Merriweather');
 
+/* font-family styling */
+
 * {
     text-align: center;
     font-family: "Source Sans Pro", "PT Sans", sans-serif;
-    font-size: 20px;
 }
+
+h1,h2,h3,h4,h5,h6,.center
+{
+    font-family: Bitter, Merriweather, serif;
+}
+
+
+/* font size */
+
+body
+{
+    font-size: 100%;
+}
+
+div, li, p
+{
+    font-size: 1.3em;
+}
+
+
+/* bacground color */
 
 html {
     background-color: mediumaquamarine;
@@ -16,6 +38,14 @@ header, footer
     color: white;
 }
 
+header a
+{
+    color: white;
+}
+
+
+/* padding and other spacing rules */
+
 header h1
 {
     margin: 0;
@@ -26,20 +56,10 @@ header ul
     margin: 0;
 }
 
-header a
-{
-    color: white;
-}
-
 footer ul
 {
     margin-bottom: 0;
     padding-bottom: 10px;
-}
-
-h1,h2,h3,h4,h5,h6,.center
-{
-    font-family: Bitter, Merriweather, serif;
 }
 
 .container {
@@ -79,6 +99,9 @@ ul
 {
     padding: 0;
 }
+
+
+/* rules for displaying the wireframe */
 
 .wireframe img
 {
