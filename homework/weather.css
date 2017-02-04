@@ -25,6 +25,16 @@ div, li, p
     font-size: 1.3em;
 }
 
+header li
+{
+    font-size: 1.2em;
+}
+
+footer li
+{
+    font-size: 1.1em;
+}
+
 
 /* bacground color */
 
@@ -41,6 +51,7 @@ header, footer
 header a
 {
     color: white;
+    text-decoration: none;
 }
 
 
@@ -54,6 +65,7 @@ header h1
 header ul
 {
     margin: 0;
+    padding-bottom: 5px;
 }
 
 footer ul
@@ -75,7 +87,7 @@ footer ul
 
 .center {
     position: absolute;
-    font-size: 3.5em;
+    font-size: 3.0em;
     left: 0;
     top: 40%;
     width: 100%;
@@ -92,13 +104,18 @@ footer ul
     clear: left;
 }
 
-
-li { display: inline; }
+li { display: inline-block; }
 
 ul
 {
     padding: 0;
 }
+
+nav li
+{
+    padding: 0px .3em;
+}
+
 
 
 /* rules for displaying the wireframe */
