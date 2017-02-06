@@ -116,7 +116,9 @@ nav li
     padding: 0px .15em;
 }
 
-
+.extras {
+    margin: 1em 0;
+}
 
 /* rules for displaying the wireframe */
 
@@ -124,4 +126,16 @@ nav li
 {
     width: 100%;
     height: auto;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 32em){
+    .container {
+        display: inline-block;
+        padding: 0 2em;
+    }
+    .container img {
+        width: 16em;
+    }
 }
