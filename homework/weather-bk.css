@@ -20,7 +20,7 @@ body
     font-size: 130%;
 }
 
-div.extras, div.conditions, li, p
+div, li, p
 {
     font-size: 1.3em;
 }
@@ -112,22 +112,16 @@ footer ul
     clear: left;
 }
 
-nav ul, .hourly ul, footer ul, ul.high_low
+li { display: inline-block; }
+
+ul
 {
     padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-    list-style-type: none;
-    justify-content: center;
 }
 
-
-nav li, footer li, .high_low li
+nav li
 {
-}
-
-li{
-    padding: 0 5px;
+    padding: 0px .15em;
 }
 
 .extras {
@@ -138,7 +132,7 @@ li{
     display: none;
 }
 
-.wd {
+.sw {
     display: none;
 }
 
@@ -157,22 +151,9 @@ img.logo {
 /* Media queries */
 
 @media only screen and (min-width: 600px) and (max-width: 1020px){
-    .wrapper {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-end;
-        height: 460px;
-        align-content: center;
-    }
-
-    ul.high_low{
-        justify-content: flex-start;
-    }
-
     .container {
         display: inline-block;
         padding: 0 2em;
-        width: 350px;
     }
 
     .container img {
@@ -202,11 +183,8 @@ img.logo {
     }
 
     .hourly {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        display: inline-block;
         width: 500px;
-        margin: auto;
     }
 
     .hourly li {
@@ -220,11 +198,11 @@ img.logo {
         display: inline-block;
     }
 
-    .wd {
+    .sw {
         display: inline;
     }
 
-    .wind-direction {
+    .southwest {
         display: none;
     }
 
@@ -240,22 +218,9 @@ img.logo {
         font-size: 1.4em;
     }
 
-    .wrapper {
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-end;
-        height: 460px;
-        align-content: center;
-    }
-
-    ul.high_low{
-        justify-content: flex-start;
-    }
-
     .container {
         display: inline-block;
         padding: 0 2em;
-        width: 350px;
     }
 
     .container img {
@@ -266,7 +231,6 @@ img.logo {
         display: inline-block;
         width: 8em;
         margin-left: 5px;
-        font-size: 120%
     }
 
     .extra-box ul, .extra-box .extras {
@@ -289,11 +253,8 @@ img.logo {
     }
 
     .hourly {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
+        display: inline-block;
         width: 990px;
-        margin: auto;
     }
 
     .hourly li {
