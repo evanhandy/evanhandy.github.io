@@ -124,6 +124,7 @@ nav ul, .hourly ul, footer ul, ul.high_low
 
 nav li, footer li, .high_low li
 {
+    padding: 5px;
 }
 
 li{
