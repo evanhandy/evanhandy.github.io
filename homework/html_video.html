@@ -1,30 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>HTML5 Video</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../test.css">
-    </head>
 
-    <body>
-        <header>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5 Video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../test.css">
+</head>
+
+<body>
+    <header>
         <h1>HTML5 Video</h1>
-        </header>
-        <main>
-        <h2>Video Element With Controls</h2>
-        <video width="600" controls>
-            <source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <h2>Video Element Without Controls</h2>
-        <video width="600">
-            <source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        </main>
-        <footer>
-            <small>Last Updated: Feb 22, 2017</small>
-        </footer>
-    </body>
+        <h2>Controls and Source Element</h2>
+        <nav><a href="../index.html">Home</a></nav>
+    </header>
+    <main>
+        <section>
+            <h2>Overview</h2>
+            <p>Thank you for viewing my presentation! I will be covering the following:</p>
+            <ul>
+                <li>The <code>&lt;video&gt;</code> element</li>
+                <li>The <code>controls</code> attribute</li>
+                <li>The <code>&lt;source&gt;</code> element</li>
+            </ul>
+        </section>
+        <section>
+            <h2>The <code>&lt;video&gt;</code> Element</h2>
+            <p>The <code>&lt;video&gt;</code> element was added in HTML5 and has great support on all modern browsers. Before the <code>&lt;video&gt;</code> element was created videos could only be viewed by using plug-ins, like flash.</p>
+            <img src="video_usability.png" alt="Usability data for the video element">
+            <p>If a browser does not support the <code>&lt;video&gt;</code> element, you can choose to have some text display instead.  For example, in a not supporting browser this code would display "Your browser does not support the video tag."</p>
+            <pre>
+    <code>&lt;video width="600" controls&gt;
+        &lt;source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"&gt;
+        <mark>Your browser does not support the video tag.</mark>
+    &lt;/video&gt;</code>
+            </pre>
+            <h3><code>&lt;video&gt;</code> Attributes</h3>
+            <p>The <code>&lt;video&gt;</code> element has a few attributes:</p>
+            <ul>
+                <li><code>width</code></li>
+                <li><code>height</code></li>
+                <li><code>autoplay</code></li>
+                <li><code>controls</code></li>
+            </ul>
+            <p>The <code>width</code> and <code>height</code> attributes are used to set the width and height of the video. Setting the width is recommended to help prevent potential flickering as the page loads. The <code>autoplay</code> attribute has no value and causes the video to automatically play when the page loads. We'll go into the <code>controls</code> attribute in the next section.</p>
+        </section>
+        <section>
+            <h2>The <code>controls</code> Attribute</h2>
+            <p>The <code>controls</code> attribute is crucial for usability.  Like <code>autoplay</code>, it doesn't have any value to set, it just needs to be present inside the <code>&lt;video&gt;</code> tag. If you don't put it in your <code>&lt;video&gt;</code> tag, the video will not be easily controlled by the user, potentially causing frustration with your site. While you may not need it in every situation, leaving it out should be a concious choice, not a mistake.</p>
+            <p>Below are some examples of two <code>&lt;video&gt;</code> elements, one with the <code>controls</code> attribute, and one without.</p>
+            <h3><code>&lt;video&gt;</code> Element With <code>controls</code></h3>
+            <pre>
+    <code>&lt;video width="600" <mark>controls</mark>&gt;
+        &lt;source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;</code>
+            </pre>
+            <video width="600" controls>
+                <source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+            <h3><code>&lt;video&gt;</code> Element Without <code>controls</code></h3>
+            <pre>
+    <code>&lt;video width="600"&gt;
+        &lt;source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"&gt;
+        Your browser does not support the video tag.
+    &lt;/video&gt;</code>
+            </pre>
+            <video width="600">
+                <source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"> Your browser does not support the video tag.
+            </video>
+        </section>
+        <section>
+            <h2>The <code>&lt;source&gt;</code> Element</h2>
+            <p>The <code>&lt;source&gt;</code> is a void element used to get the video content.  It is nested inside the <code>&lt;video&gt;</code> element.</p>            <pre>
+    <code>&lt;video width="600" controls&gt;
+        <mark>&lt;source src="2015-10-110-god-will-help-you-veme-360p-eng.mp4" type="video/mp4"&gt;</mark>
+        Your browser does not support the video tag.
+    &lt;/video&gt;</code>
+            </pre>
+            <p>The <code>&lt;source&gt;</code> element has two attributes:</p>
+            <ul>
+                <li><code>src</code>, very straightforward, treated exactly like the <code>src</code> attribute in the <code>img</code> element.</li>
+                <li><code>type</code>, describes what type of file (e.g. <code>type="video/mp4"</code>)</li>
+            </ul>
+            <h3>Video File Types</h3>
+            <p>There are three file formats supported for the <code>&lt;video&gt;</code> element, each with a corresponding media type:</p>
+            <ul>
+                <li>MP4 = <code>video/mp4</code></li>
+                <li>WebM = <code>video/webm</code></li>
+                <li>Ogg = <code>video/ogg</code></li>
+            </ul>
+            <p>There is mixed support of these across all browsers, with MP4 being the most supported.</p>
+            <img src="type_support.png" alt="Data for file type support across modern browsers">
+        </section>
+        <section>
+            <h2>Summary</h2>
+            <p>We have gone over the basics of the <code>&lt;video&gt;</code> element.  We discussed the important <code>controls</code> attribute, as well as the nested <code>&lt;source&gt;</code> element and the various file types that can be used in HTML 5 video.  Thank you for reading, I hope this helps you understand the <code>&lt;video&gt;</code> element a little bit better.</p>
+        </section>
+    </main>
+    <footer>
+        <p><small>Data from <a href="https://www.w3schools.com/html/html5_video.asp">w3schools.com</a>. Video from <a href="https://www.lds.org/media-library/video/2015-10-110-god-will-help-you-veme?lang=eng">lds.org</a></small></p>
+        <small>Last Updated: Feb 24, 2017</small>
+    </footer>
+</body>
+
 </html>

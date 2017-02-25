@@ -1,8 +1,18 @@
-* {
+body {
     font-family: sans-serif;
     color: whitesmoke;
+    background-color: darkslategray;
 }
 
-body {
-    background-color: darkslategray;
+a {
+    color: aqua;
+}
+
+header {
+    background-color: #234;
+    padding: 0 0 5px 5px
+}
+
+pre {
+    background-color: #234;
 }
