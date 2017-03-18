@@ -52,4 +52,3 @@ $(document).ready(function ($) {
     ajaxFromLocalJson("Franklin");
     ajaxFromApi();
 })
-// Underground Weather key: a7f7b6e0920546a5
