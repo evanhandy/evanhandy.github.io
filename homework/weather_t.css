@@ -117,6 +117,10 @@ nav ul, .hourly ul, footer ul, ul.high_low
     justify-content: center;
 }
 
+#returned_results, #returned_results li {
+    text-align: left;
+
+}
 
 nav li, footer li, .high_low li
 {

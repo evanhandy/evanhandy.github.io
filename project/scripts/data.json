@@ -1,0 +1,17 @@
+{
+    "page_one": {
+        "title": "Page 1",
+        "summary": "This is the first page.",
+        "comments": "I like this page a lot.",
+        "screenshot_url": ["image_400.jpg", "image_650.jpg", "image_1000.jpg"],
+        "screenshot_alt": "PICTURE!"
+    },
+
+    "page_two": {
+        "title": "Page 2",
+        "summary": "This is the second page.",
+        "comments": "I also like this page a lot.",
+        "screenshot_url": ["image_400.jpg", "image_650.jpg", "image_1000.jpg"],
+        "screenshot_alt": "PICTURE!"
+    }
+}
