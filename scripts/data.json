@@ -1,0 +1,52 @@
+{
+    "musictheory": {
+        "title": "musictheory.net",
+        "site_url": "https://www.musictheory.net/",
+        "summary": "This is the first page.",
+        "comments": "I like this page a lot.",
+        "screenshot_url": ["mus_theory_500.jpg", "mus_theory_750.jpg", "mus_theory_1200.jpg"],
+        "screenshot_alt": "PICTURE!",
+        "screenshot_title": "musictheory.net Home Page"
+    },
+
+    "imslp": {
+        "title": "IMSLP",
+        "site_url": "http://imslp.org/",
+        "summary": "This is the second page.",
+        "comments": "I also like this page a lot.",
+        "screenshot_url": ["imslp_500.jpg", "imslp_750.jpg", "imslp_1200.jpg"],
+        "screenshot_alt": "PICTURE!",
+        "screenshot_title": "IMSLP Home Page"
+    },
+
+
+    "ninsheetmusic": {
+        "title": "NinSheetMusic",
+        "site_url": "http://www.ninsheetmusic.org/",
+        "summary": "This is the second page.",
+        "comments": "I also like this page a lot.",
+        "screenshot_url": ["ninsheet_500.jpg", "ninsheet_750.jpg", "ninsheet_1200.jpg"],
+        "screenshot_alt": "PICTURE!",
+        "screenshot_title": "A view of a selected video game series on NinSheetMusic' music"
+    },
+
+    "ocremix": {
+        "title": "Overclocked Remix",
+        "site_url": "https://ocremix.org/",
+        "summary": "This is the second page.",
+        "comments": "I also like this page a lot.",
+        "screenshot_url": ["overclocked_500.jpg", "overclocked_750.jpg", "overclocked_1200.jpg"],
+        "screenshot_alt": "PICTURE!",
+        "screenshot_title": "Overclocked Remix Home Page (I apologize for the missing headline, it does not load on my school internet)"
+    },
+
+    "bandcamp": {
+        "title": "Bandcamp",
+        "site_url": "https://bandcamp.com/",
+        "summary": "This is the second page.",
+        "comments": "I also like this page a lot.",
+        "screenshot_url": ["bandcamp_500.jpg", "bandcamp_750.jpg", "bandcamp_1200.jpg"],
+        "screenshot_alt": "PICTURE!",
+        "screenshot_title": "Bandcamp Home Page"
+    }
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Fredoka+One|Roboto');
+header {
+    background-color: lightblue;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+h1 {
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    margin-top: 0;
+    padding-top: .5em;
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+}
+
+p,
+li {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 1.24rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+a:active {
+    color: gray;
+}
+
+h1 a:hover,
+h1 a:active {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul, footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+nav ul {
+    padding-bottom: .5em;
+}
+
+footer ul {
+    padding: .5em 0;
+}
+
+nav li, footer li {
+    margin: 0 5px;
+}
+
+main {
+    margin: 0 10% 1em 10%;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    display: none;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 450px) and (max-width: 1020px) {
+
+}
+
+@media only screen and (min-width: 1020px) {
+    .logo {
+        display: inline;
+        float: left;
+        margin: -3em 0 0 2em;
+        width: auto;
+    }
+
+    h1, nav {
+        display: inline-block;
+    }
+
+    #wrapper {
+        margin: 3em 0;
+        display: flex;
+        flex-flow: row wrap;
+        list-style-type: none;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+}
