@@ -10,8 +10,8 @@ footer {
 h1 {
     font-family: 'Fredoka One', cursive;
     text-align: center;
-    margin-top: 0;
-    padding-top: .5em;
+    margin: 0;
+    padding-top: .1em;
 }
 
 h2 {
@@ -82,11 +82,19 @@ img {
 
 /* Media queries */
 
-@media only screen and (min-width: 450px) and (max-width: 1020px) {
-
+@media only screen and (min-width: 700px) and (max-width: 1200px) {
+    h1 {
+        margin-bottom: 0.67em;
+        padding-top: .5em;
+    }
 }
 
-@media only screen and (min-width: 1020px) {
+@media only screen and (min-width: 1200px) {
+    h1 {
+        margin-bottom: 0.67em;
+        padding-top: .5em;
+    }
+
     .logo {
         display: inline;
         float: left;
