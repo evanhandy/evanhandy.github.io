@@ -2,10 +2,9 @@
     "musictheory": {
         "title": "musictheory.net",
         "site_url": "https://www.musictheory.net/",
-        "summary": "This is the first page.",
-        "comments": "I like this page a lot.",
+        "summary": "musictheory.net is an interactive learning website.  It includes free online music theory lessons, as well as several exercises to help with note and chord identification, ear training, and more.  There are also a few tools to help with things like constructing chords and intervals.",
+        "comments": "I really like this website, it helped me understand a lot of music theory principles.  The founder of the site is a software engineer, so everything is presented logically and cohesively.  I still use this website to help my piano students understand more about music theory.",
         "screenshot_url": ["mus_theory_500.jpg", "mus_theory_750.jpg", "mus_theory_1200.jpg"],
-        "screenshot_alt": "PICTURE!",
         "screenshot_title": "musictheory.net Home Page"
     },
 
@@ -15,7 +14,6 @@
         "summary": "This is the second page.",
         "comments": "I also like this page a lot.",
         "screenshot_url": ["imslp_500.jpg", "imslp_750.jpg", "imslp_1200.jpg"],
-        "screenshot_alt": "PICTURE!",
         "screenshot_title": "IMSLP Home Page"
     },
 
@@ -26,8 +24,7 @@
         "summary": "This is the second page.",
         "comments": "I also like this page a lot.",
         "screenshot_url": ["ninsheet_500.jpg", "ninsheet_750.jpg", "ninsheet_1200.jpg"],
-        "screenshot_alt": "PICTURE!",
-        "screenshot_title": "A view of a selected video game series on NinSheetMusic' music"
+        "screenshot_title": "Music Browser on NinSheetMusic"
     },
 
     "ocremix": {
@@ -36,8 +33,7 @@
         "summary": "This is the second page.",
         "comments": "I also like this page a lot.",
         "screenshot_url": ["overclocked_500.jpg", "overclocked_750.jpg", "overclocked_1200.jpg"],
-        "screenshot_alt": "PICTURE!",
-        "screenshot_title": "Overclocked Remix Home Page (I apologize for the missing headline, it does not load on my school internet)"
+        "screenshot_title": "Overclocked Remix Home Page"
     },
 
     "bandcamp": {
@@ -46,7 +42,6 @@
         "summary": "This is the second page.",
         "comments": "I also like this page a lot.",
         "screenshot_url": ["bandcamp_500.jpg", "bandcamp_750.jpg", "bandcamp_1200.jpg"],
-        "screenshot_alt": "PICTURE!",
         "screenshot_title": "Bandcamp Home Page"
     }
 }

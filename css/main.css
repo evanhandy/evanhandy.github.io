@@ -90,6 +90,11 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
+    main {
+        width: 950px;
+        margin: 0 auto 1em auto;
+    }
+
     h1 {
         margin-bottom: 0.67em;
         padding-top: .5em;
