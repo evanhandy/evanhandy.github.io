@@ -5,24 +5,24 @@
         "summary": "musictheory.net is an interactive learning website.  It includes free online music theory lessons, as well as several exercises to help with note and chord identification, ear training, and more.  There are also a few tools to help with things like constructing chords and intervals.",
         "comments": "I really like this website, it helped me understand a lot of music theory principles.  The founder of the site is a software engineer, so everything is presented logically and cohesively.  I still use this website to help my piano students understand more about music theory.",
         "screenshot_url": ["mus_theory_500.jpg", "mus_theory_750.jpg", "mus_theory_1200.jpg"],
-        "screenshot_title": "musictheory.net Home Page"
+        "screenshot_title": "musictheory.net Homepage"
     },
 
     "imslp": {
         "title": "IMSLP",
         "site_url": "http://imslp.org/",
-        "summary": "This is the second page.",
-        "comments": "I also like this page a lot.",
+        "summary": "From the about page: “IMSLP stands for International Music Score Project.”  This website collects and shares all the sheet music whose copyright has expired and is now public domain.  There are now more than 350,000 scores available on this site, including the works of Beethoven, Mozart, and Scott Joplin.",
+        "comments": "If there is a classical song you want to learn, odds are IMSLP has it.  Essentially anything published before 1922 is on this site and is perfectly legal to download and use.  I’ve used this site to find lots of scores, including the Hanon piano exercises.  The downloads have been good quality too from what I’ve seen.  All things considered, IMSLP is a top-notch site for your musical needs.",
         "screenshot_url": ["imslp_500.jpg", "imslp_750.jpg", "imslp_1200.jpg"],
-        "screenshot_title": "IMSLP Home Page"
+        "screenshot_title": "IMSLP Homepage"
     },
 
 
     "ninsheetmusic": {
         "title": "NinSheetMusic",
         "site_url": "http://www.ninsheetmusic.org/",
-        "summary": "This is the second page.",
-        "comments": "I also like this page a lot.",
+        "summary": "From the about page: “NinSheetMusic is a collection of Nintendo (and some non-Nintendo) sheet music for piano.”  After over a decade of service, there are now more than 3000 sheets of fan-made video game music made freely available to the public on this site.",
+        "comments": "This is my favorite resource for finding video game sheet music.  The Nintendo staples are very well covered, with several other games also getting ample coverage, such as Undertale.  The sheets are all fan-made, but most of them are high quality with updates continually being uploaded for lower-quality sheets.",
         "screenshot_url": ["ninsheet_500.jpg", "ninsheet_750.jpg", "ninsheet_1200.jpg"],
         "screenshot_title": "Music Browser on NinSheetMusic"
     },
@@ -30,18 +30,18 @@
     "ocremix": {
         "title": "Overclocked Remix",
         "site_url": "https://ocremix.org/",
-        "summary": "This is the second page.",
-        "comments": "I also like this page a lot.",
+        "summary": "From the homepage: “ocremix.org is dedicated to the appreciation and promotion of video game music as an art form.”  Overclocked Remix a gathering place for fans of video game music, musicians and listeners alike.  The site’s main feature is the thousands of fan-made remixes to video games of all types that are available on the site.",
+        "comments": "I’ve followed Overclocked Remix for several years now.  I’ve found it to be a great source for fun video game music remixes.  One thing I really like is that every posted remix gets a personal review by the site’s founder, DJ Pretzel.  The forums on the site are a great resource as well, with entire discussions being dedicated to music composition and production.  It’s a great place for a budding video game composer to visit.",
         "screenshot_url": ["overclocked_500.jpg", "overclocked_750.jpg", "overclocked_1200.jpg"],
-        "screenshot_title": "Overclocked Remix Home Page"
+        "screenshot_title": "Overclocked Remix Homepage"
     },
 
     "bandcamp": {
         "title": "Bandcamp",
         "site_url": "https://bandcamp.com/",
-        "summary": "This is the second page.",
-        "comments": "I also like this page a lot.",
+        "summary": "From the homepage: “Discover amazing new music and directly support the artists who make it.” At Bandcamp, fans can listen to music for free before deciding if they would like to buy it.  When they do, the money goes directly to the artists.",
+        "comments": "Bandcamp has been a great resource for me.  I’ve found lots of my favorite indie video game composers on this site, and so I get to check out their music for free! Bandcamp’s offerings aren’t restricted to just video game music either, all genres are present and accounted for and waiting to be discovered.",
         "screenshot_url": ["bandcamp_500.jpg", "bandcamp_750.jpg", "bandcamp_1200.jpg"],
-        "screenshot_title": "Bandcamp Home Page"
+        "screenshot_title": "Bandcamp Homepage"
     }
 }
