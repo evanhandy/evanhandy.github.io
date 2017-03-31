@@ -80,6 +80,11 @@ img {
     display: none;
 }
 
+iframe {
+    width: 80vw;
+    height: 45vw;
+}
+
 /* Media queries */
 
 @media only screen and (min-width: 700px) and (max-width: 1200px) {
@@ -90,6 +95,11 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
+    iframe {
+        width: 950px;
+        height: 534px;
+    }
+
     main {
         width: 950px;
         margin: 0 auto 1em auto;
